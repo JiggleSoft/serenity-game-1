@@ -1,0 +1,238 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_PIC16:PIC16F690-IP U1
+U 1 1 616C1FC2
+P 4400 3850
+F 0 "U1" H 4400 4828 50  0000 C CNN
+F 1 "PIC16F690-IP" H 4400 4737 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 4400 3850 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/41262E.pdf" H 4400 3850 50  0001 C CNN
+	1    4400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 616C2198
+P 1800 3750
+F 0 "C1" H 1915 3796 50  0000 L CNN
+F 1 "C" H 1915 3705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1838 3600 50  0001 C CNN
+F 3 "~" H 1800 3750 50  0001 C CNN
+	1    1800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 616C2443
+P 1000 3750
+F 0 "BT1" H 1108 3796 50  0000 L CNN
+F 1 "Battery" H 1108 3705 50  0000 L CNN
+F 2 "" V 1000 3810 50  0001 C CNN
+F 3 "~" V 1000 3810 50  0001 C CNN
+	1    1000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 616C28D0
+P 2450 6050
+F 0 "SW1" H 2450 6335 50  0000 C CNN
+F 1 "SW_Push" H 2450 6244 50  0000 C CNN
+F 2 "" H 2450 6250 50  0001 C CNN
+F 3 "" H 2450 6250 50  0001 C CNN
+	1    2450 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 616C29CD
+P 3350 6000
+F 0 "SW2" H 3350 6285 50  0000 C CNN
+F 1 "SW_Push" H 3350 6194 50  0000 C CNN
+F 2 "" H 3350 6200 50  0001 C CNN
+F 3 "" H 3350 6200 50  0001 C CNN
+	1    3350 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 616C2A82
+P 4200 6000
+F 0 "SW3" H 4200 6285 50  0000 C CNN
+F 1 "SW_Push" H 4200 6194 50  0000 C CNN
+F 2 "" H 4200 6200 50  0001 C CNN
+F 3 "" H 4200 6200 50  0001 C CNN
+	1    4200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 616C2B23
+P 5200 6000
+F 0 "SW4" H 5200 6285 50  0000 C CNN
+F 1 "SW_Push" H 5200 6194 50  0000 C CNN
+F 2 "" H 5200 6200 50  0001 C CNN
+F 3 "" H 5200 6200 50  0001 C CNN
+	1    5200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 616C2C29
+P 7700 3150
+F 0 "D1" H 7691 3366 50  0000 C CNN
+F 1 "LED" H 7691 3275 50  0000 C CNN
+F 2 "" H 7700 3150 50  0001 C CNN
+F 3 "~" H 7700 3150 50  0001 C CNN
+	1    7700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 616C2DF7
+P 7750 3750
+F 0 "D4" H 7741 3966 50  0000 C CNN
+F 1 "LED" H 7741 3875 50  0000 C CNN
+F 2 "" H 7750 3750 50  0001 C CNN
+F 3 "~" H 7750 3750 50  0001 C CNN
+	1    7750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 616C36F2
+P 7700 4350
+F 0 "D2" H 7691 4566 50  0000 C CNN
+F 1 "LED" H 7691 4475 50  0000 C CNN
+F 2 "" H 7700 4350 50  0001 C CNN
+F 3 "~" H 7700 4350 50  0001 C CNN
+	1    7700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 616C37C4
+P 7700 4900
+F 0 "D3" H 7691 5116 50  0000 C CNN
+F 1 "LED" H 7691 5025 50  0000 C CNN
+F 2 "" H 7700 4900 50  0001 C CNN
+F 3 "~" H 7700 4900 50  0001 C CNN
+	1    7700 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 616C3971
+P 9900 3200
+F 0 "R4" H 9970 3246 50  0000 L CNN
+F 1 "R" H 9970 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9830 3200 50  0001 C CNN
+F 3 "~" H 9900 3200 50  0001 C CNN
+	1    9900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 616C3A41
+P 9900 3850
+F 0 "R5" H 9970 3896 50  0000 L CNN
+F 1 "R" H 9970 3805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9830 3850 50  0001 C CNN
+F 3 "~" H 9900 3850 50  0001 C CNN
+	1    9900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 616C3E9D
+P 9950 4400
+F 0 "R6" H 10020 4446 50  0000 L CNN
+F 1 "R" H 10020 4355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9880 4400 50  0001 C CNN
+F 3 "~" H 9950 4400 50  0001 C CNN
+	1    9950 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 616C3F46
+P 10050 5100
+F 0 "R7" H 10120 5146 50  0000 L CNN
+F 1 "R" H 10120 5055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9980 5100 50  0001 C CNN
+F 3 "~" H 10050 5100 50  0001 C CNN
+	1    10050 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 616C4034
+P 6200 2250
+F 0 "R1" H 6270 2296 50  0000 L CNN
+F 1 "R" H 6270 2205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6130 2250 50  0001 C CNN
+F 3 "~" H 6200 2250 50  0001 C CNN
+	1    6200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 616C4412
+P 7500 1300
+F 0 "J1" H 7606 1678 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 7606 1587 50  0000 C CNN
+F 2 "" H 7500 1300 50  0001 C CNN
+F 3 "~" H 7500 1300 50  0001 C CNN
+	1    7500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 616C456E
+P 6800 6000
+F 0 "R3" H 6870 6046 50  0000 L CNN
+F 1 "R" H 6870 5955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6730 6000 50  0001 C CNN
+F 3 "~" H 6800 6000 50  0001 C CNN
+	1    6800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 616C4873
+P 6200 2850
+F 0 "R2" H 6270 2896 50  0000 L CNN
+F 1 "R" H 6270 2805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6130 2850 50  0001 C CNN
+F 3 "~" H 6200 2850 50  0001 C CNN
+	1    6200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 616C4938
+P 6650 2600
+F 0 "SW5" H 6650 2885 50  0000 C CNN
+F 1 "SW_Push" H 6650 2794 50  0000 C CNN
+F 2 "" H 6650 2800 50  0001 C CNN
+F 3 "" H 6650 2800 50  0001 C CNN
+	1    6650 2600
+	1    0    0    -1  
+$EndComp
+Text Notes 3950 4000 0    50   ~ 0
+serenity game 1
+$EndSCHEMATC
