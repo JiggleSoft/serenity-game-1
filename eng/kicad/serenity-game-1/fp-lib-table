@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name serenity-logo)(type KiCad)(uri /home/qh8404/git/js_gh/serenity-game-1/eng/kicad/library/serenity-logo)(options "")(descr ""))
+)
